@@ -1,0 +1,34 @@
+ls
+cd ../
+D:
+cd ExtraProjects/
+cd Test/
+vim 
+gcc main.cpp 
+g++ main.cpp 
+a.exe 
+ls
+./a.exe 
+g++ main.cpp 
+g++ main.cpp 
+./a.exe 
+quit
+g++ main.cpp 
+g++ main.cpp 
+g++ -std=c++14 main.cpp 
+./a.exe 
+main.cpp:9:22: error: 'bind' is not a member of 'std'
+cd D:
+C:
+cd ../
+cd ../../
+cd ~
+pwd
+cd .emacs.d/
+ls
+ls
+ls
+cd ~
+ls
+git init
+git add .

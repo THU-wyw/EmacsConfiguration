@@ -46,12 +46,12 @@
 (global-set-key (kbd "M-SPC") 'set-mark-command)
 
 ;; 使用tabbar.el
-(require 'tabbar)
-(tabbar-mode)
-(global-set-key (kbd "") 'tabbar-backward-group)
-(global-set-key (kbd "") 'tabbar-forward-group)
-(global-set-key (kbd "") 'tabbar-backward)
-(global-set-key (kbd "") 'tabbar-forward)
+;; (require 'tabbar)
+;; (tabbar-mode)
+;; (global-set-key (kbd "") 'tabbar-backward-group)
+;; (global-set-key (kbd "") 'tabbar-forward-group)
+;; (global-set-key (kbd "") 'tabbar-backward)
+;; (global-set-key (kbd "") 'tabbar-forward)
 
 
 ;; 一打开就起用 text 模式。  
@@ -140,3 +140,8 @@
 )
 
 (loop-alpha)
+
+(add-to-list 'load-path "~/.emacs.d/lisp/auto-complete-1.3.1/")
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/lisp/auto-complete-1.3.1//ac-dict")
+(ac-config-default)

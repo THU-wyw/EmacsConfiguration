@@ -1,47 +1,128 @@
-ls
-cd ../
-D:
-cd ExtraProjects/
-cd Test/
-vim 
-gcc main.cpp 
-g++ main.cpp 
-a.exe 
-ls
-./a.exe 
-g++ main.cpp 
-g++ main.cpp 
-./a.exe 
-quit
-g++ main.cpp 
-g++ main.cpp 
-g++ -std=c++14 main.cpp 
-./a.exe 
-main.cpp:9:22: error: 'bind' is not a member of 'std'
-cd D:
-C:
-cd ../
-cd ../../
-cd ~
-pwd
-cd .emacs.d/
-ls
-ls
-ls
-cd ~
-ls
-git init
-git add .
-cd ~
-cd .emacs.d/
-ls
-ls  -a
-git init
-git add .
-git status
-git commit -m "first commit"
-git remote add origin https://github.com/THU-wyw/EmacsConfiguration.git
-git push -u origin master
 git push
 git push -u origin master
 git push -u origin master
+cd D
+D:
+cd ../
+ls
+cd Test/
+ls
+cd src/
+ls
+cd ../src/
+ls
+cd ../
+ls
+mkdir build
+cd build/
+cmake -G"NMake Makefiles" ..
+that can use the compiler cl from the command line.  This environment is
+python
+python --version
+cd D:
+D:
+ls
+mkdir serialization
+cd serialization/
+ls
+ls
+ls
+cd ..
+ls
+rm -f serialization/
+rm -f serialization
+rm -r serialization
+ls
+cd CppTest/
+ls
+ls
+ls
+gcc main.cpp 
+g++ main.cpp 
+g++ main.cpp -std=c++14
+a.exe 
+./a.exe 
+g++ main.cpp -std=c++14
+./a.exe 
+g++ main.cpp -std=c++14
+g++ main.cpp -std=c++14
+./a.exe 
+g++ main.cpp -std=c++14 -O2
+./a.exe 
+g++ main.cpp -std=c++14 -O2
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O2
+g++ main.cpp -std=c++14 -O2
+./a.exe 
+g++ main.cpp -std=c++14 -O2
+g++ main.cpp -std=c++14 -O2
+g++ main.cpp -std=c++14 -O2
+./a.exe 
+g++ main.cpp -std=c++14 -O2
+./a.exe 
+g++ main.cpp -std=c++14 -O2
+./a.exe 
+g++ main.cpp -std=c++14 -O2
+./a.exe 
+g++ main.cpp -std=c++14 -O2
+g++ main.cpp -std=c++14 -O2
+./a.exe 
+g++ main.cpp -std=c++14 -O2
+./a.exe 
+g++ main.cpp -std=c++14 -O2
+./a.exe 
+g++ main.cpp -std=c++14 -O2
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+ls
+g++ main.cpp -std=c++14 -O3
+ls
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+0
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+g++ main.cpp -std=c++14 -O3
+./a.exe 
+g++ main.cpp -std=c++14 -O3
+./a.exe 

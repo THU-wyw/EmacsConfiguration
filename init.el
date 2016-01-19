@@ -9,9 +9,25 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
+(add-to-list 'package-archives
+			 '("melpa" . "http://melpa.org/packages/"))
+
 (set-cursor-color "white")
 ;; 鼠标颜色设置为白色
 (set-mouse-color "white")
+
+;; disable the bell
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages (quote (cuda-mode glsl-mode powershell)))
+ '(visible-bell t))
+
+;; set utf-8 as the default coding system
+(setq default-buffer-file-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
 
 ;; all backups goto ~/.backups instead of the current directory
 (setq backup-directory-alist (quote (("." . "~/.emacs.d/auto-save-list"))))
@@ -141,7 +157,43 @@
 
 (loop-alpha)
 
+;; auto complete
 (add-to-list 'load-path "~/.emacs.d/lisp/auto-complete-1.3.1/")
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/lisp/auto-complete-1.3.1//ac-dict")
 (ac-config-default)
+
+(add-to-list 'load-path "~/.emacs.d/lisp/neotree/")
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
+
+;; set cpp style as google style mode
+(require 'google-c-style) 
+(add-hook 'c-mode-common-hook 'google-set-c-style) 
+(add-hook 'c-mode-common-hook 'google-make-newline-indent) 
+
+(require 'google-c-style)
+(add-hook 'c-mode-common-hook 'google-set-c-style)
+(add-hook 'c-mode-common-hook 'google-make-newline-indent)
+
+(autoload 'glsl-mode "glsl-mode" nil t)
+(add-to-list 'auto-mode-alist '("\\.glsl\\'" . glsl-mode))
+(add-to-list 'auto-mode-alist '("\\.vert\\'" . glsl-mode))
+(add-to-list 'auto-mode-alist '("\\.frag\\'" . glsl-mode))
+(add-to-list 'auto-mode-alist '("\\.geom\\'" . glsl-mode))
+
+(setq hs-allow-nesting t)
+(add-hook 'js-mode-hook
+		  (lambda() (hs-minor-mode 1)))
+(add-hook 'c++-mode-hook
+		  (lambda() (hs-minor-mode 1)))
+(global-set-key [f12] 'hs-toggle-hiding)
+
+(require 'cuda-mode)
+(add-to-list 'auto-mode-alist '("\\.cu\\'" . cuda-mode))
+
+(defun refresh-file()
+  (interactive)
+  (revert-buffer t (not (buffer-modified-p)) t))
+
+(global-set-key [f7] 'refresh-file)

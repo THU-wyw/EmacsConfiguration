@@ -1,128 +1,128 @@
-git push
-git push -u origin master
-git push -u origin master
-cd D
-D:
+cmake ..
+rm *
+rm -r *
+cmake ..
+rm -r *
+cmake ..
+rm -r *
+cmake ..
+rm -r *
+cmake ..
+rm -r *
+cmake ..
+rm -r *
+cmake ..
+rm -r *
+cmake ..
+rm -r *
+rm -r *
+cmake ..
+cmake -G"Unix Makefiles" ..
+make
+rm -r *
+cmake -G"Unix Makefiles" ..
+make
+rm -r *
+ls
 cd ../
-ls
-cd Test/
-ls
+mkdir include
 cd src/
-ls
-cd ../src/
+cd ../
+cd include/
+mkdir Rain
+cd Rain
+mkdir Common
+mkdir Widgets
+cd Common/
+D:
 ls
 cd ../
+cd ../../../
+ls
+mkdir CudaTest
+cd CudaTest/
 ls
 mkdir build
 cd build/
-cmake -G"NMake Makefiles" ..
-that can use the compiler cl from the command line.  This environment is
-python
-python --version
-cd D:
-D:
-ls
-mkdir serialization
-cd serialization/
-ls
-ls
-ls
+cmake -G"Visual Studio 14 Win64" ..
+rm -r *
+cmake -G"Visual Studio 12 Win64" ..
+cmake -G"Visual Studio 12 Win64" ..
+cmake -G"Visual Studio 12 Win64" ..
+cmake -G"Visual Studio 12 Win64" ..
+cmake -G"Visual Studio 12 Win64" ..
+cmake -G"Visual Studio 12 Win64" ..
+cd ../
+mkdir src
+cd src/
+rm cd ../
 cd ..
 ls
-rm -f serialization/
-rm -f serialization
-rm -r serialization
+rm hellocuda.cu 
+cd src/
+cd ../
+cd build/
+cmake -G"Visual Studio 12 Win64" ..
+cmake -G"Visual Studio 12 Win64" ..
+cmake -G"Visual Studio 12 Win64" ..
+cmake -G"Visual Studio 12 Win64" ..
+cmake -G"Visual Studio 12 Win64" ..
+D;
+D:
+cd ..
+cd build/
+D:
 ls
-cd CppTest/
+cd ..
+D:
 ls
+cd ..
+D:
 ls
+D:
+d:
+cd D:|
+cd D:\ 
 ls
-gcc main.cpp 
-g++ main.cpp 
-g++ main.cpp -std=c++14
-a.exe 
-./a.exe 
-g++ main.cpp -std=c++14
-./a.exe 
-g++ main.cpp -std=c++14
-g++ main.cpp -std=c++14
-./a.exe 
-g++ main.cpp -std=c++14 -O2
-./a.exe 
-g++ main.cpp -std=c++14 -O2
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O2
-g++ main.cpp -std=c++14 -O2
-./a.exe 
-g++ main.cpp -std=c++14 -O2
-g++ main.cpp -std=c++14 -O2
-g++ main.cpp -std=c++14 -O2
-./a.exe 
-g++ main.cpp -std=c++14 -O2
-./a.exe 
-g++ main.cpp -std=c++14 -O2
-./a.exe 
-g++ main.cpp -std=c++14 -O2
-./a.exe 
-g++ main.cpp -std=c++14 -O2
-g++ main.cpp -std=c++14 -O2
-./a.exe 
-g++ main.cpp -std=c++14 -O2
-./a.exe 
-g++ main.cpp -std=c++14 -O2
-./a.exe 
-g++ main.cpp -std=c++14 -O2
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
+cd ExtraProjects/
+mkdir Rain
+cd RayTracing/
+cd ../Rain\ copy/
+cd ../
 ls
-g++ main.cpp -std=c++14 -O3
+cd Rain
 ls
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-0
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-g++ main.cpp -std=c++14 -O3
-./a.exe 
-g++ main.cpp -std=c++14 -O3
-./a.exe 
+mkdir include
+cd include/
+mkdir Rain
+cd Rain/
+mkdir Widgets
+mkdir Common
+cd Common/
+D:
+cd d:/ExtraProjects/Rain/build/
+buildsolution.bat 
+buildsolution.bat 
+D:
+ls
+cd ../
+ls
+D:
+D:\ 
+ls
+cd ExtraProjects/
+ls
+cd BitTorrent/
+ls
+cd src/
+cd BitTorrent/
+ls
+D:
+cd Dd:/ExtraProjects/
+cd d:/ExtraProjects/
+mkdir rain
+cd rain/
+npm install electron-prebuilt -g
+electron .
+electron .
+node --version

@@ -1,0 +1,508 @@
+((("null" .
+   [0 0 0 1])
+  ("closed" .
+   [1 0 0 0 0 0])
+  ("main" .
+   [2 0 0 0])
+  ("mainWindow" .
+   [0 0 0 0 0 1 0 1 0 3])
+  ("BrowerWindow" .
+   [0 0 0 1 1 0 0 0 0 0 0 0])
+  ("electron" .
+   [1 0 0 2 0 0 0 0])
+  ("Run" .
+   [1 0 0])
+  ("nativeEventLoop" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("window" .
+   [1 0 0 0 0 0])
+  ("Base" .
+   [1 0 0 0])
+  ("nativeWindow" .
+   [1 0 0 0 0 0 0 0 0 1 0 0])
+  ("Show" .
+   [2 0 0 0])
+  ("CreateNativeWindow" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("manager" .
+   [3 0 0 1 0 0 0])
+  ("RegisterClassEx" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("lpfnWndProc" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("CS_VREDRAW" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("CS_HREDRAW" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("style" .
+   [1 0 0 0 0])
+  ("sizeof" .
+   [1 0 0 0 0 0])
+  ("wcex" .
+   [5 0 0 0])
+  ("WNDCLASSEX" .
+   [0 0 0 2 0 0 0 0 0 0])
+  ("SUCCEEDED" .
+   [0 0 0 1 0 0 0 0 0])
+  ("GetModuleHandle" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("hInstance" .
+   [0 0 0 0 1 0 0 0 0])
+  ("HINSTANCE" .
+   [0 0 0 0 1 0 0 0 0])
+  ("HRESULT" .
+   [1 0 0 0 0 0 0])
+  ("widgets" .
+   [1 0 0 0 0 0 0])
+  ("NativeWindowManager" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 0 0])
+  ("sphere" .
+   [1 0 0 0 0 0])
+  ("Sphere" .
+   [0 0 1 0 1 0])
+  ("ViewPlane" .
+   [4 0 0 0 1 1 0 0 1])
+  ("image" .
+   [3 0 0 0 1])
+  ("RGBAPreMulti" .
+   [1 0 0 0 4 0 0 1 0 0 0 0])
+  ("RAYTRACING_SCENE_H" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1])
+  ("RAYTRACING_" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("app" .
+   [5 0 0])
+  ("argv" .
+   [1 0 0 0])
+  ("argc" .
+   [1 0 0 0])
+  ("QCoreApplication" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("QtCore" .
+   [1 0 0 0 0 0])
+  ("endif" .
+   [3 0 1 0 0])
+  ("enum" .
+   [3 0 0 0])
+  ("io" .
+   [1 0])
+  ("rain" .
+   [7 0 0 0])
+  ("RAIN_IO_UNICODEENCODING_H" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("define" .
+   [4 0 0 0 0 1])
+  ("ifndef" .
+   [5 0 0 0 0 0])
+  ("public" .
+   [3 0 0 0 0 0])
+  ("break" .
+   [3 0 0 0 0])
+  ("int" .
+   [15 0 0])
+  ("private" .
+   [6 0 0 0 0 0 0])
+  ("Identifier" .
+   [1 0 0 0 0 0 1 0 0 0])
+  ("struct" .
+   [9 0 0 0 1 0])
+  ("class" .
+   [11 0 0 0 0])
+  ("LexicalAnalysis" .
+   [2 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Lex" .
+   [3 0 0])
+  ("Rain" .
+   [7 0 1 0])
+  ("void" .
+   [17 0 0 0])
+  ("switch" .
+   [2 0 3 1 1 0])
+  ("case" .
+   [4 0 0 0])
+  ("include" .
+   [20 0 0 0 0 0 0])
+  ("KeywordOperator" .
+   [3 0 0 3 0 0 1 0 0 0 1 0 0 0 3])
+  ("NONE" .
+   [1 0 1 0])
+  ("namespace" .
+   [0 0 4 6 9 0 0 0 2])
+  ("ParseKeywordOperator" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("const_cast" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("std" .
+   [9 0 0])
+  ("string" .
+   [3 0 0 0 0 0])
+  ("text" .
+   [2 0 0 0])
+  ("static" .
+   [9 0 0 0 0 0])
+  ("const" .
+   [12 0 0 0 0])
+  ("Value" .
+   [0 0 3 0 0])
+  ("IF" .
+   [1 0])
+  ("ELSE" .
+   [1 0 0 0])
+  ("FOR" .
+   [1 0 0])
+  ("WHILE" .
+   [1 0 0 0 0])
+  ("ADD" .
+   [1 0 0])
+  ("SUB" .
+   [1 0 0])
+  ("MUL" .
+   [1 0 0])
+  ("DIV" .
+   [1 0 0])
+  ("MOD" .
+   [1 0 0])
+  ("ASSIGN" .
+   [1 0 0 0 0 0])
+  ("LEFT_BRACE" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("RIGHT_BRACE" .
+   [0 0 1 0 0 0 0 0 0 0 1])
+  ("LEFT_BRACKET" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("RIGHT_BRACKET" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("LEFT_PARENTHESES" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("RIGHT_PARENTHESES" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("VOID" .
+   [1 0 0 0])
+  ("INT" .
+   [1 0 0])
+  ("STRING" .
+   [0 0 1 0 0 0])
+  ("INCREMENT" .
+   [0 0 0 1 0 0 0 0 0])
+  ("DECREMENT" .
+   [0 0 1 0 0 0 0 0 0])
+  ("if" .
+   [15 0])
+  ("auto" .
+   [1 0 0 0])
+  ("KeywordMap" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("KEYWORD_MAP" .
+   [1 0 0 1 0 0 0 0 0 0 0])
+  ("keyword_iterator" .
+   [0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0])
+  ("return" .
+   [20 0 0 0 0 0])
+  ("else" .
+   [6 0 0 0])
+  ("type" .
+   [2 0 0 0])
+  ("NumberLiteral" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("Size" .
+   [5 0 0 0])
+  ("size" .
+   [1 0 0 0])
+  ("current_size_" .
+   [0 0 7 2 3 2 0 1 0 0 0 0 0])
+  ("used_length_" .
+   [1 0 0 7 5 1 0 0 0 0 0 2])
+  ("while" .
+   [6 0 0 0 0])
+  ("remain" .
+   [2 0 0 0 1 0])
+  ("Byte" .
+   [6 0 0 0])
+  ("vector" .
+   [1 0 2 1 0 0])
+  ("begin" .
+   [0 0 1 0 0])
+  ("buffer" .
+   [3 0 0 0 0 2])
+  ("pointer" .
+   [3 0 0 0 1 0 0])
+  ("length" .
+   [3 0 1 2 0 6])
+  ("sum" .
+   [11 0 0])
+  ("RefreshBuffer" .
+   [0 0 0 2 0 1 0 0 0 0 0 0 0])
+  ("LIBIO_API" .
+   [0 0 0 0 0 2 0 1 0])
+  ("DataReader" .
+   [0 0 0 0 0 0 1 0 1 4])
+  ("ReadByte" .
+   [1 0 0 0 1 0 0 4])
+  ("is_good_" .
+   [1 0 0 1 1 0 0 0])
+  ("false" .
+   [3 0 1 0 0])
+  ("buffer_" .
+   [3 0 0 0 0 0 1])
+  ("char" .
+   [5 0 0 0])
+  ("inline" .
+   [2 0 0 0 0 0])
+  ("bool" .
+   [4 0 0 0])
+  ("IsSpaceOrEnter" .
+   [0 0 2 0 0 0 0 0 0 0 0 0 0 0])
+  ("ch" .
+   [19 0])
+  ("result" .
+   [12 0 0 0 1 2])
+  ("Read" .
+   [1 0 0 0])
+  ("true" .
+   [3 0 0 0])
+  ("Peek" .
+   [16 0 7 1])
+  ("positive" .
+   [0 0 0 2 0 0 0 0])
+  ("IsNumber" .
+   [1 0 0 0 1 0 0 0])
+  ("base" .
+   [2 0 0 0])
+  ("exit_manager" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("RAIN_BASE_SINGLETON_H" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("function" .
+   [3 0 0 0 0 1 0 0])
+  ("FunctionNode" .
+   [0 0 0 2 1 0 0 0 0 0 0 0])
+  ("typedef" .
+   [3 0 0 0 0 0 0])
+  ("nullptr" .
+   [1 0 1 1 2 0 0])
+  ("index" .
+   [1 0 0 0 0])
+  ("var" .
+   [19 0 0])
+  ("labSizeList" .
+   [0 0 0 0 1 1 3 2 0 0 0])
+  ("push" .
+   [3 0 0 0])
+  ("bins" .
+   [1 0 0 0])
+  ("let" .
+   [8 0 0])
+  ("PALETTE_SIZE" .
+   [0 0 1 0 0 0 0 0 0 0 0 0])
+  ("LENGTH" .
+   [0 0 1 0 0 0])
+  ("for" .
+   [12 0 0])
+  ("sizeLists" .
+   [0 0 0 0 4 1 1 0 0])
+  ("maxNumber" .
+   [0 0 0 0 1 1 0 0 0])
+  ("key" .
+   [12 0 0])
+  ("initPoints" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("labMeans" .
+   [0 0 0 0 2 6 0 2])
+  ("lab" .
+   [1 0 0])
+  ("diff" .
+   [7 0 0 0])
+  ("Math" .
+   [1 0 0 0])
+  ("distanceEq" .
+   [1 0 0 3 0 0 0 0 0 0])
+  ("SIGMA2" .
+   [1 0 0 0 0 0])
+  ("Kmeans" .
+   [0 0 1 0 0 0])
+  ("numeric" .
+   [5 0 0 0 0 0 0])
+  ("points" .
+   [11 0 0 0 0 1])
+  ("Array" .
+   [2 0 0 0 0])
+  ("number" .
+   [7 0 0 0 0 0])
+  ("sub" .
+   [2 0 0])
+  ("dot" .
+   [2 0 0])
+  ("tempdis" .
+   [2 0 0 0 0 0 0])
+  ("console" .
+   [0 0 0 0 1 0 1])
+  ("log" .
+   [2 0 0])
+  ("RayTracing" .
+   [0 0 0 0 3 0 1 0 0 1])
+  ("MultipleObjects" .
+   [1 0 0 1 0 1 0 0 0 0 0 0 0 0 0])
+  ("RGBColor" .
+   [0 0 0 0 0 0 0 1])
+  ("Trace" .
+   [2 0 0 0 1])
+  ("Ray" .
+   [3 0 0])
+  ("ray" .
+   [3 0 0])
+  ("override" .
+   [1 0 0 0 1 0 0 0])
+  ("ShadeRec" .
+   [0 0 1 0 0 0 0 0])
+  ("shade" .
+   [3 0 0 0 0])
+  ("World" .
+   [1 0 1 1 0])
+  ("world" .
+   [1 0 0 0 1])
+  ("world_" .
+   [2 0 0 0 0 0])
+  ("h" .
+   [3])
+  ("HitBareBonesObjects" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("hit_an_object" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("color" .
+   [1 0 0 0 0])
+  ("background_color_" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("RAYTRACING_VIEWPLANE_H" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("float" .
+   [3 0 0 0 0])
+  ("i" .
+   [10])
+  ("CoordinateSystem" .
+   [1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("unique_ptr" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Scene" .
+   [2 0 1 1 0])
+  ("scene_" .
+   [5 0 0 0 0 0])
+  ("Render" .
+   [4 0 0 0 1 1])
+  ("view_plane" .
+   [4 0 0 0 0 1 4 0 0 0])
+  ("hres" .
+   [1 0 0 0])
+  ("width" .
+   [2 0 0 0 1])
+  ("height" .
+   [1 0 0 0 0 1])
+  ("vres" .
+   [0 0 0 1])
+  ("pixel_size" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("0f" .
+   [5 0])
+  ("coordinate" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("left" .
+   [1 0 0 0])
+  ("impl_" .
+   [1 0 0 0 0])
+  ("AddSphere" .
+   [0 0 0 1 0 0 0 0 0])
+  ("float3" .
+   [1 0 0 0 0 0])
+  ("RAIN_EVENTS_HANDLER_H" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("events" .
+   [1 0 0 0 0 0])
+  ("IHandler" .
+   [1 0 0 0 0 0 0 0])
+  ("virtual" .
+   [1 0 0 0 0 0 0])
+  ("Handle" .
+   [1 0 0 0 0 0])
+  ("RAIN_EVENTS_" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("RAIN_EVENTS_WNDPROC_H" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("RAIN_EVENTS_PLATFORM_WNDPROC_H" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Event" .
+   [1 0 0 0 1])
+  ("event" .
+   [0 0 0 0 1])
+  ("LRESULT" .
+   [1 0 0 3 0 0 0])
+  ("CALLBACK" .
+   [0 0 0 0 2 0 0 0])
+  ("Window" .
+   [4 0 0 0 0 0])
+  ("WndProc" .
+   [1 0 0 1 1 0 0])
+  ("HWND" .
+   [3 0 0 0])
+  ("hwnd" .
+   [2 0 0 0])
+  ("UINT" .
+   [5 0 0 0])
+  ("message" .
+   [2 0 1 1 0 0 0])
+  ("WPARAM" .
+   [0 0 0 2 0 0])
+  ("wParam" .
+   [1 0 0 0 1 0])
+  ("LPARAM" .
+   [2 0 0 2 0 0])
+  ("lParam" .
+   [1 0 1 1 0 0])
+  ("GetMessage" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("msg" .
+   [3 0 0])
+  ("TranslateMessage" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DispatchMessage" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("NativeEventPump" .
+   [0 0 0 0 0 0 1 2 0 0 0 0 0 0 1])
+  ("WM_CREATE" .
+   [0 0 0 0 1 0 0 0 0])
+  ("LPCREATESTRUCT" .
+   [0 0 0 0 0 2 0 0 0 0 0 0 0 0])
+  ("pcs" .
+   [3 0 0])
+  ("reinterpret_cast" .
+   [0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0])
+  ("lpCreateParams" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("SetWindowLongPtr" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("WM_SIZE" .
+   [1 0 0 0 0 0 0])
+  ("LOWORD" .
+   [0 0 0 0 1 0])
+  ("WM_DESTROY" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("PostQuitMessage" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("wasHandled" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("default" .
+   [0 0 0 0 0 1 0])
+  ("Common" .
+   [1 0 0 0 1 0])
+  ("Application" .
+   [0 0 0 1 1 0 1 0 0 0 0])
+  ("Impl" .
+   [2 0 0 0])
+  ("NativeEvent" .
+   [0 0 0 0 1 0 0 0 0 0 2])
+  ("NativeEventLoop" .
+   [5 0 0 0 0 0 0 0 0 0 0 0 4 1 0])
+  ("instance" .
+   [1 0 0 2 0 0 0 0])
+  ("this" .
+   [1 0 0 0])
+  ("BITTORRENT_BEN_CODE_H" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))
